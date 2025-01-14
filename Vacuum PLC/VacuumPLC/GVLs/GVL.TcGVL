@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.13">
+  <GVL Name="GVL" Id="{a9896aa3-c00d-4ec7-ba08-8202e16864e0}">
+    <Declaration><![CDATA[//{attribute 'qualified_only'}
+VAR_GLOBAL
+	Always_ON : BOOL := 1;
+	Vacuum_Grants : ARRAY [0..31] OF BOOL;
+	Vacuum_Requests : ARRAY [0..31] OF BOOL;
+	Conv_Max_Times : ARRAY [0..31] OF DWORD := [32(30000)];
+	Conv_Last_Times : ARRAY [0..31] OF DWORD;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

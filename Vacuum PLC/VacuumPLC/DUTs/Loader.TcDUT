@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.13">
+  <DUT Name="Loader" Id="{8c85dd9f-7832-4bf7-9976-9ace8fcebe8b}">
+    <Declaration><![CDATA[TYPE Loader :
+STRUCT
+	Level_Prox AT%I* : BOOL;
+	Flap_Reed AT%I* : BOOL;
+	Switch AT%I* : BOOL;
+	PushButton AT%I* : BOOL;
+	Valve AT%Q* : BOOL;
+	Lamp AT%Q* : BOOL;
+	Status_Word : WORD;
+	HMI_Status_Word : WORD;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

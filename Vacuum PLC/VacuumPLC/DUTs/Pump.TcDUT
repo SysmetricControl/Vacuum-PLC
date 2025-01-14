@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.13">
+  <DUT Name="Pump" Id="{49faabab-7ed0-462b-b3c2-39ce236b3be3}">
+    <Declaration><![CDATA[TYPE Pump :
+STRUCT
+	Switch AT%I* : BOOL;
+	Over_Load AT%I* : BOOL;
+	Lamp AT%Q* : BOOL;
+	Motor AT%Q* : BOOL;
+	Pump_Block AT%Q* : BOOL;
+	Pump_Vent AT%Q* : BOOL;
+	Line_Block AT%Q* : BOOL;
+	Join_Valve AT%Q* : BOOL;
+	{attribute 'OPC.UA.DA' := '1'}
+	Status_Word : WORD;
+	Rest_Time : CTU;
+	Off_Delay : TON;
+	Clean_Delay : CTU;
+	Clean_On : CTU;
+	Air_Delay : TON;
+	Steady : TON;
+	Conv_End : CTU;
+	Max_Conv_Time : TON;
+	Max_Conv_Time_ET : TIME;
+	Min_Conv_Time : TON;
+	Accumulated_Time : DINT;
+	Efficency : INT;
+	Temp_Accum_Time : INT;
+	Locel_Request : BOOL;
+	Global_Request : BOOL;
+	Global_Grant : BOOL;
+	Line_Live : BOOL;
+	Locked_1 : BOOL;
+	Locked_2 : BOOL;
+	START_Conv : BOOL;
+	LOCK_Start : BOOL;
+	AUTO_Clean : BOOL;
+	PumpOnDifu  : BOOL;
+	Top_prox_OK : BOOL;
+	Auto_Clean_Keep : SR;
+	Pump_Block_Keep : SR;
+	Locked_2_Keep : RS;
+	Motor_Keep : RS;
+	Scanner : INT;
+	Pump_Requests : INT;
+	Lock_Start_DIFU : R_TRIG;
+	Conv_Start_DIFU : R_TRIG;
+	Max_Conv_Time_PT : TIME; 
+	Vac_Req_Sum : UINT;
+	Vac_Req_Size : UINT := 32;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
