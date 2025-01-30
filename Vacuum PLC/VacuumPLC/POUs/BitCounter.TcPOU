@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.13">
-  <POU Name="BitCounter" Id="{7fbd3b32-a35e-4ec4-bbee-6eb33b4ebb18}" SpecialFunc="None">
+  <POU Name="BitCounter" Id="{7bf909d7-8981-4ec0-a1a9-7324154235a7}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION BitCounter : UINT
 VAR_INPUT
 	fArrySize : UINT;								// size of the array been tested.
@@ -9,8 +9,7 @@ END_VAR
 VAR
 	i : UINT;			//arry pointer for thr FOR loop
 	fSum_Cnt : UINT; 	// temp count value
-END_VAR
-]]></Declaration>
+END_VAR]]></Declaration>
     <Implementation>
       <ST><![CDATA[fSum_Cnt := 0;
 
@@ -23,9 +22,8 @@ END_FOR
 BitCounter := fSum_Cnt;]]></ST>
     </Implementation>
     <LineIds Name="BitCounter">
-      <LineId Id="12" Count="6" />
-      <LineId Id="20" Count="0" />
-      <LineId Id="7" Count="0" />
+      <LineId Id="6" Count="7" />
+      <LineId Id="5" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>

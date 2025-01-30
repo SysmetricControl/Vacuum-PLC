@@ -34,7 +34,13 @@
     <Compile Include="POUs\Alarms.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\BitCounter.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Common_Pulses.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\FB_Loader.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
@@ -55,9 +61,6 @@
     <Folder Include="POUs" />
   </ItemGroup>
   <ItemGroup>
-    <PlaceholderReference Include="Function and FB">
-      <DefaultResolution>Function and FB, * (Sysmetric)</DefaultResolution>
-    </PlaceholderReference>
     <PlaceholderReference Include="Tc2_Standard">
       <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc2_Standard</Namespace>

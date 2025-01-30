@@ -8,6 +8,7 @@ VAR_GLOBAL
 	Vacuum_Requests : ARRAY [0..31] OF BOOL;
 	Conv_Max_Times : ARRAY [0..31] OF DWORD := [32(30000)];
 	Conv_Last_Times : ARRAY [0..31] OF DWORD;
+	testvar : WORD;
 END_VAR]]></Declaration>
   </GVL>
 </TcPlcObject>

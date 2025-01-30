@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
+	<LicenseInfo>
+		<SystemId>{417F6484-22BE-CB4B-A11E-60005EEBFBA8}</SystemId>
+		<IssueTime>2025-01-16T09:21:00</IssueTime>
+		<ExpireTime>2025-01-24T00:00:00</ExpireTime>
+		<LicenseKey>09154ff4f1f7a51b4013c6b3b3bb57405e53ffc0c23dd6730a032bc80148d3bd96ac3325296cabb26c702e29ebe47b7fd8bb3c37fe45432710706a7e7362d1c3dc0ed2040cc273f54e650040dcb212496f9b37c4527d9f5204fc08cd32a651dcaae4dc72c117a7e3d1946463061e3dd8972566ef4060b5fc2c78aac59e4f8c478d6d8f4e81273a4b04e268b2660f7eb60a51e3c015a2803d7c722fcc56c96d1be201702bb870edabfe748699cba2bff3d27d87967a78cb7d79f28e289a30a81602d5a161f840e71ce455c380868dcc0ca669530cc3ab7457e07a283862b653b9993a42c8633e4af30f75fcf66d8fcf04e2ac5ab6e68c8fefee9de7b754686072</LicenseKey>
+		<License>
+			<LicenseId>{D4390DEA-A64D-494D-9E09-275326DBB0CB}</LicenseId>
+			<Name>TC3 PLC-HMI (RT)</Name>
+		</License>
+		<License>
+			<LicenseId>{7AFD0713-1333-4A3B-938C-7B9BD0418C8D}</LicenseId>
+			<Name>TC3 PLC-HMI Web</Name>
+			<OrderNo>TF1810</OrderNo>
+		</License>
+	</LicenseInfo>
+</TcLicenseInfo>

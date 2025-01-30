@@ -9,13 +9,15 @@ END_VAR
       <ST><![CDATA[Common_Pulses();
 Pumps();
 Loaders();
-Alarms();]]></ST>
+Alarms();
+	GVL.testvar := Pumps.Pump_1.Status_Word;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="11" Count="0" />
       <LineId Id="6" Count="0" />
       <LineId Id="2" Count="0" />
       <LineId Id="10" Count="0" />
+      <LineId Id="17" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
