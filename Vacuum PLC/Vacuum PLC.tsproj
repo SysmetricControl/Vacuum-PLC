@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{6E8F3681-0ADC-4978-BBC0-2FF9FBB67756}" Name="VacuumPLC" PrjFilePath="VacuumPLC\VacuumPLC.plcproj" TmcFilePath="VacuumPLC\VacuumPLC.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="VacuumPLC\VacuumPLC.tmc" TmcHash="{2BE7CD4F-F6B6-C756-EB43-CDFE05FA2046}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="VacuumPLC\VacuumPLC.tmc" TmcHash="{8D72DF6D-16E5-03CF-6492-339BDD479746}">
 					<Name>VacuumPLC Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
