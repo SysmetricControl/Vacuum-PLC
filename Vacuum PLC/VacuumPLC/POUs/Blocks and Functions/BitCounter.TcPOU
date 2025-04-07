@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.13">
+  <POU Name="BitCounter" Id="{7bf909d7-8981-4ec0-a1a9-7324154235a7}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION BitCounter : UINT
+VAR_INPUT
+	fArrySize : UINT;								// size of the array been tested.
+	fBoolArry : POINTER TO ARRAY[0..255] OF BOOL;  // this is a Pointer to the address of the Array and needs to be written in the program with the array name in ADR(array name) 
+END_VAR
+VAR
+	i : UINT;			//arry pointer for thr FOR loop
+	fSum_Cnt : UINT; 	// temp count value
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fSum_Cnt := 0;
+
+FOR i := 0 TO fArrySize-1 BY 1 DO
+	IF fBoolArry^ [i] = 1
+		THEN fSum_Cnt := fSum_Cnt + 1;
+	END_IF
+END_FOR
+
+BitCounter := fSum_Cnt;]]></ST>
+    </Implementation>
+    <LineIds Name="BitCounter">
+      <LineId Id="6" Count="7" />
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

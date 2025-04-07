@@ -34,13 +34,13 @@
     <Compile Include="POUs\Alarms.TcPOU">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="POUs\BitCounter.TcPOU">
+    <Compile Include="POUs\Blocks and Functions\BitCounter.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\Blocks and Functions\FB_Loader.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Common_Pulses.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\FB_Loader.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
@@ -57,6 +57,7 @@
     <Folder Include="DUTs" />
     <Folder Include="GVLs" />
     <Folder Include="Documents" />
+    <Folder Include="POUs\Blocks and Functions" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
   </ItemGroup>
@@ -106,9 +107,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Documents\24121100 Vacuum PLC_Beckhof.pdf">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Documents\cx8190_en.pdf">
       <SubType>Content</SubType>
     </Content>

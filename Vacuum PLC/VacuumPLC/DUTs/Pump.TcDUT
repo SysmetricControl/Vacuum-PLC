@@ -48,6 +48,7 @@ STRUCT
 	Max_Conv_Time_PT : TIME; 
 	Vac_Req_Sum : UINT;
 	Vac_Req_Size : UINT := 32;
+	Clean_Delay_PV : UINT := 300; //Use this VAR to be able to change when needs to initiate auto clean before shot down
 END_STRUCT
 END_TYPE
 ]]></Declaration>
