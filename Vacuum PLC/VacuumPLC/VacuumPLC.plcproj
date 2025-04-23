@@ -43,6 +43,9 @@
     <Compile Include="POUs\Common_Pulses.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\HMI.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
