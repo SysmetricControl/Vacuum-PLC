@@ -9,6 +9,7 @@ VAR
 	Loader_HMI_Status		: ARRAY [1..100] OF WORD;
 	Loader_Last_Time		: ARRAY [1..100] OF WORD;
 	Loader_Prop				: ARRAY [1..100] OF WORD;
+	Loader_Exist			: ARRAY [1..100] OF BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
